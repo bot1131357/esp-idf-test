@@ -1,0 +1,85 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            // don't know how to run the command after initialising ???
+            "label": "clean",
+            "type": "shell",
+            "windows": {
+              "command": "C:\\Users\\y.tan\\.espressif\\idf_cmd_init.bat",
+              "args": ["C:\\Users\\y.tan\\AppData\\Local\\Programs\\Python\\Python38", "C:\\Program Files\\Git\\cmd"],
+              "options": {
+                "cwd": "C:\\Users\\y.tan\\Desktop\\esp-idf"
+              }
+            },
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "menuconfig",
+            "type": "shell",
+            "command": "idf.py menuconfig",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "idf.py build",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "flash",
+            "type": "shell",
+            "command": "idf.py flash",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "flash and monitor",
+            "type": "shell",
+            "command": "idf.py flash monitor",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "monitor",
+            "type": "shell",
+            "command": "idf.py monitor",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "flash erase",
+            "type": "shell",
+            "command": "idf.py erase_flash",
+            "group": "build",
+            "presentation": {
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared"
+            }
+        }
+    ]
+}

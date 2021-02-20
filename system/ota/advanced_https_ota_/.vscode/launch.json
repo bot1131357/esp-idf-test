@@ -1,0 +1,10 @@
+// {
+//     "name": "ESP-IDF Launch",
+//     "type": "cppdbg",
+//     "request": "launch",
+//     "program": "C:\\Users\\y.tan\\.espressif\\idf_cmd_init.bat",
+//     "args": ["C:\\Users\\y.tan\\AppData\\Local\\Programs\\Python\\Python38", "C:\\Program Files\\Git\\cmd"],
+//     "environment": [{ "name": "squid", "value": "clam" }],
+//     "cwd": "C:\\Users\\y.tan\\Desktop\\esp-idf"
+//   }
+  
